@@ -1,0 +1,113 @@
+#ransom1 {
+  font-size: 4em;
+  line-height: normal;
+  word-spacing: 0.3em;
+}
+
+#ransom1 div {
+  display: inline-block;
+}
+
+#ransom1 .rw {
+  white-space: pre;
+  display: inline;
+}
+
+#ransom1 .rr {
+  -webkit-transform: rotate(1.5deg);
+  transform: rotate(1.5deg);
+}
+
+#ransom1 .rl {
+  -webkit-transform: rotate(-1.5deg);
+  transform: rotate(-1.5deg);
+}
+
+.slide a {
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 10px 20px;
+  -webkit-transition: .4s linear;
+  transition: .4s linear;
+}
+
+.slide a:hover {
+  text-align: center;
+  color: #777777;
+}
+
+.fp-slidesNav.fp-bottom {
+  margin-left: 1em !important;
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+h2 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+h4 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.s0 {
+  background-image: url(Images/blackmarble.jpg);
+  background-size: cover;
+}
+
+.s1 {
+  background-image: url(Images/raf.jpg);
+  background-size: cover;
+}
+
+.c1 {
+  background-image: url(Images/riot.jpg);
+  background-size: cover;
+}
+
+.c2 {
+  background-image: url(Images/woe.jpg);
+  background-size: cover;
+}
+
+.s2 {
+  background-image: url(Images/rick.jpg);
+  background-size: cover;
+}
+
+.r1 {
+  background-image: url(Images/vicious.jpg);
+  background-size: cover;
+}
+
+.r2 {
+  background-image: url(Images/cyclops.jpg);
+  background-size: cover;
+}
+
+.s3 {
+  background-image: url(Images/hedilead.jpg);
+  background-size: cover;
+}
+
+.m1 {
+  background-image: url(Images/fall16.jpg);
+  background-size: cover;
+}
+
+.m2 {
+  background-image: url(Images/dazed.jpg);
+  background-size: cover;
+}
+
+span {
+  background: white !important;
+}
+/*# sourceMappingURL=finalstyle.css.map */

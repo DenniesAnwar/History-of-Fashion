@@ -1,0 +1,300 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    padding: 3.9rem 0;
+}
+
+img{
+    width: 100%;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-size: 1.6 rem;
+}
+
+.container{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 2.4rem;
+}
+
+header{
+    width: 100%;
+    position: absolute;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    color: whitesmoke;
+    background: url("Images/raf.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hero1{
+    width: 100%;
+    height: 100vh;
+    color: whitesmoke;
+    background: url("Images/rick.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hero12{
+    width: 100%;
+    height: 100vh;
+    color: whitesmoke;
+    background: url("Images/hedilead.jpg") ;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hero2{
+    width: 100%;
+    height: 100vh;
+    color: whitesmoke;
+    background: url("Images/summa.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hero22{
+    width: 100%;
+    height: 100vh;
+    color: whitesmoke;
+    background: url("Images/rickback.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hero23{
+    width: 100%;
+    height: 100vh;
+    color: whitesmoke;
+    background: url("Images/backhedi.jpg") ;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hero3{
+    width: 100%;
+    height: 100vh;
+    color: whitesmoke;
+    background: url("Images/blackmarble.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.sub-headline{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: .4;
+    letter-spacing: 2px;
+    opacity: 0;
+    animation: fadeUp .5s forwards;
+}
+
+.headline{
+    animation: scale .5s forwards;
+    animation-delay: .5s;
+}
+
+.separator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    width: 100%;
+    max-width: 1.5rem;
+    height: .25rem;
+    background-color: #fff;
+    position: relative;
+}
+
+.line-right::before,
+.line-left::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: .6rem solid transparent;
+}
+
+.headline-description h5{
+    color: whitesmoke;
+    text-transform: uppercase;
+    margin-bottom: 1.2rem;
+    letter-spacing: 3px;
+    margin-right: -3px;
+}
+
+.single-animation{
+    opacity: 0;
+    animation: fadeDown .5s forwards;
+    animation-delay: 1s;
+}
+
+.description-animation{
+    opacity: 0;
+    animation: fadeUp .5s forwards;
+    animation-delay: 2.5s;
+}
+
+.back-animation{
+    color:whitesmoke;
+    opacity: 0;
+    animation: fadeDown .5s forwards;
+    animation-delay: 1s;
+}
+
+a{
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(119, 119, 119);
+    
+    
+    padding: 10px 20px;
+    transition: .4s linear;
+}
+a:hover{
+    text-align: center;
+    color:white;
+    
+}
+
+.btn{
+    display: inline-block;
+    text-transform: lowercase;
+}
+
+.cta-btn{
+    background-color: whitesmoke;
+    padding: .9rem 1.8rem;
+    border-radius: .4rem;
+    transition: background-color 5.s;
+}
+
+.cta-btn:hover,
+.cta-btn:focus{
+    color: whitesmoke;
+    background-color: gray;
+}
+
+.global-headline{
+    text-align: center;
+    margin-top: 3.9rem;
+}
+
+.discover-our-story .global-headline{
+    margin: 6.9rem ;
+}
+
+.headline-dark{
+    color: black;
+    letter-spacing: .7rem;
+    margin-right: -.7rem;
+}
+
+.global-headline .sub-headline{
+    letter-spacing: -1px;
+    line-height: .42;
+}
+
+.designer-info{
+    text-align: center;
+    display: flex;
+} 
+
+
+
+.designer-info > div{
+    flex: 1;
+}
+
+.designer-info-img {
+    align-items: right;
+}
+
+.padding-right{
+    padding-right: 7rem;
+}
+
+.designer-description{
+    margin-bottom: 3rem;
+}
+
+.designer-description p{
+    line-height: 1.6;
+    margin-bottom: 2.4rem;
+}
+
+/* Animations */
+@keyframes fadeUp {
+    0%{
+        transform: translateY(4rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scale {
+    0%{
+        transform: scale(2);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeDown {
+    0%{
+        transform: translateY(-1rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
